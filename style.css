@@ -45,6 +45,8 @@ footer{background:var(--dark-purple); text-align:center; margin-top:15px;}
 .carousel{position:relative;}
 .carousel .text{position:absolute; bottom:0; left:0; right:0; z-index:999; text-align:center; font-size:24px; padding:15px 0; background:rgba(255,255,255,0.3);}
 
+.anchor{display:block; position:relative; top:-95px; visibility:hidden;}
+
 @media (max-width:767px){
     .card{float:none; margin:10px 0; width:100%;}
     .right-col{padding-top:15px;}
